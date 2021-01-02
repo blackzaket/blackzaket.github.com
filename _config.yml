@@ -11,9 +11,9 @@ url: https://blackzaket.github.io
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: Monsterb의 개발 이야기 
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: 개발 관련된 이야기를 두서 없이 하고 있습니다. 
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
@@ -24,8 +24,8 @@ harmony:
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+    email: blackzaket@gmail.com
+    url: http://blackzaket.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
