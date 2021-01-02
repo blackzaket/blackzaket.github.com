@@ -33,10 +33,10 @@ harmony:
   # Profile links, leave blank to ignore
   social: 
     github: blackzaket
-    #twitter: gayanvirajith
-    #facebook: gayanvirajith
-    #gplus: +GayanVirajith
-    #dribble: gayan
+    twitter: #gayanvirajith
+    facebook: #gayanvirajith
+    gplus: #+GayanVirajith
+    dribble: #gayan
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
