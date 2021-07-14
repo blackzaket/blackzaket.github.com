@@ -6,6 +6,7 @@ description: 안드로이드 스튜디오 설치하기
 categories:
 - android
 permalink: install_androidstudio
+tag: basic_android
 ---
 
 ___
