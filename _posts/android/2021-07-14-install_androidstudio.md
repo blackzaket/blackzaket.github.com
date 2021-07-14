@@ -5,7 +5,7 @@ date:   2021-07-14 13:43:00
 description: 안드로이드 스튜디오 설치하기  
 categories:
 - android
-permalink: android
+permalink: install_androidstudio
 ---
 
 ___
