@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "안드로이드 개발환경만들기"
-date:   2020-07-14 13:43:00
+date:   2021-07-14 13:43:00
 description: 안드로이드 스튜디오 설치하기  
 categories:
 - android
