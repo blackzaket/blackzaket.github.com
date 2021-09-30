@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "모바일 개발"
+title:  "모바일 안드로이드"
 date:   2021-07-13 16:03:00
 description: 모바일 플랫폼 안드로이드 
 categories:
