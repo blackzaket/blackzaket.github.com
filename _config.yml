@@ -18,12 +18,12 @@ harmony:
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github - 
-   https://github.com/gayanvirajith/harmony
+   안드로이드 기반의 모바일 개발 이야기를 하고 있습니다. 
+   2007년 일본에서 개발을 시작해서 지금까지 하고 있으면 모바일 개발은 2010년부터 한국에서 안드로이드로 시작했습니다. 
+
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
+    name: joon kim
     email: blackzaket@gmail.com
     url: http://blackzaket.github.io
 
