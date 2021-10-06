@@ -1,0 +1,34 @@
+<!-- 블로그의 좌측 메뉴를 정의 하는 곳  -->
+
+<aside class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="sidebar-info">
+        <a href="/">
+            <span hidden>{{site.title}}
+                Header Image</span>
+            <img class="brand-photo" src="{{{site.url}}/{{site.header_image}}" alt="Photo of {{site.author}}"/>
+        </a>
+
+        <br/>
+
+        <h1 class="brand-title">
+            <a href="/">{{site.title}}</a>
+        </h1>
+        <h2 class="brand-tagline">{{site.description}}</h2>
+
+        <br/>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="pure-button" href="{{site.url}}">Post</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="pure-button" href="{{site.url}}/notes">Notes</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="pure-button" href="{{site.url}}/journals">Journal</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
