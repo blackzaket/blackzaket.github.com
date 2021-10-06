@@ -42,10 +42,10 @@ layout: default
 
                 <div class="post-description">
                     <p class="md-display">
-                        <em>{{ post.content | strip_html | escape | truncate: 400}}</em>
+                        {{ post.content | strip_html | escape | truncate: 400}}
                     </p>
                     <p class="sm-display">
-                        <em>{{ post.content | strip_html | escape | truncate: 300}}</em>
+                        {{ post.content | strip_html | escape | truncate: 300}}
                     </p>
                 </div>
             </section>
