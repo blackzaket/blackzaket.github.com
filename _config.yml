@@ -34,8 +34,8 @@ header_image: assets/monsterb.jpg
 
 google_analytics:
 comments: true
-disqus: purelog-jekyll
-disqus_shortname: blackzaket
+  disqus: purelog-jekyll
+    shortname: blackzaket
 
 author: MonsterB
 author_bio: >-

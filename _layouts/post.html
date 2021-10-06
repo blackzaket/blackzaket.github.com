@@ -17,8 +17,6 @@ layout: default
 
     {%- if site.disqus.shortname -%}
         {%- include disqus_comments.html -%}
-        
-        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
         <script>
             /**
@@ -41,6 +39,6 @@ layout: default
 
     {%- endif -%}
 
-    
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
