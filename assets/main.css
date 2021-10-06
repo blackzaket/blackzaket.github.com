@@ -14,7 +14,7 @@ p,
 ul,
 ol,
 li {
-  font-family: "Lora", serif;
+  font-family: "Lora", "Nanum Gothic", serif;
 }
 
 a {
@@ -402,7 +402,7 @@ footer .pure-menu-link:hover {
 
 .jekyll-header {
   text-align: center;
-  text-decoration: underline;
+  text-decoration: initial;
   font-size: 48px;
   margin-bottom: 0px;
   color: #222;
