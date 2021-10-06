@@ -33,10 +33,10 @@ github: blackzaket
 header_image: assets/monsterb.jpg
 
 google_analytics:
-  
+
 comments: 
   disqus: 
-    shortname: blackzaket
+    shortname: "blackzaket"
 
 author: MonsterB
 author_bio: >-
