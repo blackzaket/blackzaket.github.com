@@ -7,6 +7,7 @@ tags:
 author: Joon Kim
 avatar: assets/monsterb.jpg
 category: Welcome
+comments: true
 ---
 
 안드로이드와 코틀린에 대해서 주로 이야기 합니다. 
