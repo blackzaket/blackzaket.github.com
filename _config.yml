@@ -33,8 +33,8 @@ github: blackzaket
 header_image: assets/monsterb.jpg
 
 google_analytics:
-comments: true
-  disqus: purelog-jekyll
+comments: 
+  disqus: 
     shortname: blackzaket
 
 author: MonsterB
