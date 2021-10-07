@@ -72,12 +72,13 @@ comments : true
 <br>  
 
 라고 하는 부분과  그아래 설명중  
+
 ```
-{% if page.comments %}
+#{% if page.comments %}
   
   /*Disqus에서 제공하는 코드가 들어가는 부분*/
 
-{% endif %}
+#{% endif %}
 ```
 
 라고 하는 부분이 중요 한데. 
@@ -93,6 +94,7 @@ comments : true
 
 
 Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이 나온다.  
+
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_03.png)
 
 
@@ -101,12 +103,14 @@ Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이
 <br>
 
 블로그 정보를 넣고 설정을 끝내면 Admin메뉴에서 site 정보를 확인 할 수 있다.  
+
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_04.png)
 
 
 <br>
 <br>
 <br>
+
 여기서 Shortname을 기억해 두자!  
 
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_05.png)
@@ -126,25 +130,25 @@ install 과정중 "Universal Embed Code"를 따라가서 얻게 되는 코드인
 
 ```html
 <div id="disqus_thread"></div>
-            <script>
-                /**
-                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-                /*
-                var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-                */
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
 
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://본인사이트id.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>    
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://본인사이트id.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>    
         
 ```
 
