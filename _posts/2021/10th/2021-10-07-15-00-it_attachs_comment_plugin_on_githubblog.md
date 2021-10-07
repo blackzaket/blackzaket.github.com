@@ -63,9 +63,11 @@ comments : true
 <br>  
 
 라고 하는 부분과  그아래 설명중  
-```ruby
+```
 {% if page.comments %}
-  Disqus에서 제공하는 코드가 들어가는 부분 
+  
+  /*Disqus에서 제공하는 코드가 들어가는 부분*/
+
 {% endif %}
 ```
 
@@ -81,7 +83,7 @@ comments : true
 <br>
 
 
-Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이 나온다. 
+Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이 나온다.  
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_03.png)
 
 
@@ -89,14 +91,14 @@ Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이
 <br>
 <br>
 
-블로그 정보를 넣고 설정을 끝내면 Admin메뉴에서 site 정보를 확인 할 수 있다. 
+블로그 정보를 넣고 설정을 끝내면 Admin메뉴에서 site 정보를 확인 할 수 있다.  
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_04.png)
 
 
 <br>
 <br>
 <br>
-여기서 Shortname을 기억해 두자! 
+여기서 Shortname을 기억해 두자!  
 
 ![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_05.png)
 
@@ -111,7 +113,7 @@ Configure 버튼을 클릭하면 웹사이트 설정을 할 수 있는 화면이
 
 ## 3. 해당 layout.html 파일을 편집하자. 
 
-install 과정중 "Universal Embed Code"를 따라가서 얻게 되는 코드인 다음 코드를 
+install 과정중 "Universal Embed Code"를 따라가서 얻게 되는 코드인 다음 코드를  
 
 ```html
 <div id="disqus_thread"></div>
@@ -137,14 +139,20 @@ install 과정중 "Universal Embed Code"를 따라가서 얻게 되는 코드인
         
 ```
 
-를 댓글이 필요한 layout파일에 if문을 이용해서 정의 하면 해당 comments 값에 따라 댓글을 표시 하거나 표시 하지 않는다. 
+를 댓글이 필요한 layout파일에 if문을 이용해서 정의 하면 해당 comments 값에 따라 댓글을 표시 하거나 표시 하지 않는다.  
 
 
+<br>
 <br>
 <br>
 
 ## 4. 확인 하자. 
 
+모든 과정이 끝났으면 내용이 적용된 파일을 github repository에 push하고 댓글을 달 수 있는 Disqus 댓글창이 나오는지 확인 하자.  
+
+<br>
+
+# 끝~!!! 
 
 
 <br>
