@@ -3,12 +3,17 @@
 }
 
 .highlight table pre {
-    margin: 0;
+    margin: 0px;
 }
 
-.highlight,
+.highlight, 
 .highlight .w {
-    color: #586e75;
+  white-space: pre;
+  background: #222;
+  max-width: 100%;
+  overflow-x: auto;
+  color: #c8cbcc;
+  padding: 5px
 }
 
 .highlight .err {
