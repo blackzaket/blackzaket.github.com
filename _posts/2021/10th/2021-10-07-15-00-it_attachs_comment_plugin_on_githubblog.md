@@ -13,6 +13,14 @@ category: other
 comments: true
 ---
 
+<br>
+<br>
+<br>  
+
+## 댓글 플러그인을 설치 하는 과정은 다음과 같습니다.  
+
+<br>
+
 1. 여러 댓글 플러그인이 존재 한다. 
 2. Disqus를 달아 보자 
 3. 해당 layout.html 파일을 편집하자. 
@@ -20,6 +28,7 @@ comments: true
 
 <br>
 <br>
+<br>  
 
 
 ## 1. 여러 댓글 플러그인이 존재 한다. 
