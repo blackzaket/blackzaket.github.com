@@ -73,13 +73,7 @@ comments : true
 
 라고 하는 부분과  그아래 설명중  
 
-~~~
-{% if page.comments %}
-  
-  /*Disqus에서 제공하는 코드가 들어가는 부분*/
-
-{% endif %}
-~~~
+![](../../../assets/post/2021/10th/1007-install-comment-plugin/install_plugin_ex.png)
 
 
 라고 하는 부분이 중요 한데. 
