@@ -27,9 +27,7 @@ comments: true
 4. 확인 하자. 
 
 <br>
-<br>
 <br>  
-
 
 ## 1. 여러 댓글 플러그인이 존재 한다. 
 jekyll blog를 이용하면 기본적으로 제공하는 댓글 시스템이 없다. 
@@ -52,7 +50,7 @@ jekyll blog를 이용하면 기본적으로 제공하는 댓글 시스템이 없
 
 ## 2. Disqus를 달아 보자 
 우선 간단한 정보 입력으로 disqus.com 사이트에 가입하자. 
-가입하고 나면 선택 메뉴가 보일텐데 **install**을 선택하고 아래와 같은 화면에서 jekyll을 선택하자 
+가입하고 나면 선택 메뉴가 보일텐데 **install**을 선택하고 아래와 같은 화면에서 jekyll을 선택하자  
 ![](/assets/post/2021/10th/1007-install-comment-plugin/install_plugin_01.png)
 
 <br>
@@ -147,7 +145,7 @@ install 과정중 "Universal Embed Code"를 따라가서 얻게 되는 코드인
         
 ```
 
-를 댓글이 필요한 layout파일에 if문을 이용해서 정의 하면 해당 comments 값에 따라 댓글을 표시 하거나 표시 하지 않는다.  
+댓글이 필요한 layout파일에 if문을 이용해서 정의 하면 해당 comments 값에 따라 댓글을 표시 하거나 표시 하지 않는다.  
 
 
 <br>
