@@ -25,5 +25,7 @@
 <br>
 <br>  
 
+
+[![HitCount](http://hits.dwyl.com/blackzaket/blackzaketgithubio.svg?style=flat-square)](http://hits.dwyl.com/blackzaket/blackzaketgithubio)
 ---  
 <p align='right'>  Purelog라는 theme를 기본으로 하고 있다. </p>
