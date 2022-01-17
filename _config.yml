@@ -35,7 +35,7 @@ header_image: assets/monsterb.jpg
 google_analytics:
   provider : "google-gtag"
   google:
-    tracking_id : "G-CSEY9Z9PV2"
+    tracking_id : G-CSEY9Z9PV2
 
 comments: 
   disqus: 
