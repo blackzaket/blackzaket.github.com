@@ -9,13 +9,13 @@ layout: default
         {%- include post-data.html -%}
     </header>
 
-    <div articlebody" class="post-body itemprop=">
+    <div articlebody class="post-body itemprop=">
         {{ content }}
     </div>
 
     {%- include author.html -%}
     {%- include comments.html -%}
-    {%- include google-analytics.html -%}
+    {% include google-analytics.html %}
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
