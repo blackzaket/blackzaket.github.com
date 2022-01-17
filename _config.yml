@@ -32,10 +32,7 @@ github: blackzaket
 
 header_image: assets/monsterb.jpg
 
-google_analytics:
-  provider : google
-  google:
-    tracking_id : G-CSEY9Z9PV2
+google_analytics: G-CSEY9Z9PV2
 
 comments: 
   disqus: 
